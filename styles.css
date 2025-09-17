@@ -14,6 +14,7 @@ body{
 .startWindow{
   display: flex;
   background-color: rgb(24, 24, 24);
+  max-height: 100dvh;
 }
 
 header{
