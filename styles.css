@@ -168,12 +168,14 @@ header a:hover{
   animation: ease-out fadefromright both;
   animation-timeline: view();
   animation-range: 0 40%;
+  will-change: transform, opacity;
 }
 
 .fadefromleft{
   animation: ease-out fadefromleft both;
   animation-timeline: view();
   animation-range: 0 40%;
+  will-change: transform, opacity;
 }
 
 footer{
