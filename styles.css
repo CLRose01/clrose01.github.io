@@ -87,8 +87,15 @@ header a:hover{
 .startContent h1, .startContent h6{
   margin: 0 5vw;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  font-size: clamp(1vw, 5vw + 1rem, 3rem);
   text-align: center;
+}
+
+.startContent h1{
+  font-size: clamp(2rem, 10vw + 0.1rem, 5rem);
+}
+
+.startContent h6{
+  font-size: clamp(0.5rem, 2vw + 0.1rem, 1rem);
 }
 
 .main{
@@ -109,7 +116,6 @@ header a:hover{
   animation: ease-out fade-in both;
   animation-timeline: view();
   animation-range: 0 40%;
-  overflow-x: hidden;
 }
 
 
@@ -151,12 +157,9 @@ header a:hover{
   background-color: rgb(36, 36, 36);
   border-radius: 2rem;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  font-size: 1.4rem;
   z-index: 1;
   font-size: min(140%, 4vw);
 }
-  
-
 
 .previewBox img{
   max-width: 80%;
