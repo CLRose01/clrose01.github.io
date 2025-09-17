@@ -5,16 +5,10 @@ body{
   overflow-x: hidden;
 }
 
-.fullscreen{
-  display: grid;
-  grid-template-rows: 100dvh auto auto;
-  overflow-x: clip;
-}
-
 .startWindow{
   display: flex;
   background-color: rgb(24, 24, 24);
-  max-height: 100dvh;
+  height: 100dvh;
 }
 
 header{
