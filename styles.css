@@ -164,7 +164,7 @@ header a:hover{
 }
 
 .fadefromright{
-  animation: ease-out fadefromright forwards;
+  animation: ease-out fadefromright both;
   animation-timeline: view();
   animation-range: 0 40%;
 }
